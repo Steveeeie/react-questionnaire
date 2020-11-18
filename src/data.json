@@ -1,0 +1,72 @@
+{
+  "pages": [
+    {
+      "title": "About You",
+      "questions": [
+        {
+          "type": "input",
+          "label": "What's your name?",
+          "required": true,
+          "htmlType": "text"
+        },
+        {
+          "type": "input",
+          "label": "What's your email?",
+          "required": false,
+          "htmlType": "email"
+        },
+        {
+          "type": "range",
+          "label": "How cool are you?",
+          "required": true,
+          "range": {
+            "min": 0,
+            "max": 5
+          }
+        }
+      ]
+    },
+    {
+      "title": "Your Favourite Things",
+      "questions": [
+        {
+          "type": "options",
+          "label": "Your favourite pet",
+          "options": ["Dog", "Cat", "Hamster", "Rabbit"],
+          "required": true
+        },
+        {
+          "type": "options",
+          "label": "Your favourite color",
+          "options": ["Red", "Green", "Blue", "Yellow", "Orange"]
+        }
+      ]
+    },
+    {
+      "title": "Your Favourite Food",
+      "questions": [
+        {
+          "type": "options",
+          "label": "Your favourite Italian food",
+          "options": ["Lasagna", "Pasta", "Pizza"],
+          "required": true
+        },
+        {
+          "type": "options",
+          "label": "Your favourite UK food",
+          "options": ["Fish and Chips", "Sunday Roast", "Pie and Peas"]
+        }
+      ]
+    },
+    {
+      "title": "Do you want to see your results?",
+      "questions": [
+        {
+          "type": "option",
+          "label": "Check this box if you wish to see your results",
+          "required": true
+        }
+      ]
+    }
+  ]
+}
